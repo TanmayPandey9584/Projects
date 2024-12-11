@@ -1,0 +1,11 @@
+# Example usage
+if __name__ == "__main__":
+    # Initialize chatbot with path to your documents
+    chatbot = RAGChatBot("./documents")  # Replace with your documents folder path
+    
+    while True:
+        question = input("Ask a question (or 'quit' to exit): ")
+        if question.lower() == 'quit':
+            break
+        answer = chatbot.ask(question)
+        print(f"\nAnswer: {answer}\n") 

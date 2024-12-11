@@ -1,0 +1,54 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+chromadb
+openai
+python-dotenv
+jinja2
+pydantic
+protobuf>=3.20.3,<5.0.0dev
+tokenizers>=0.21,<0.22
+transformers==4.47.0
+tiktoken 
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.0.0
+torch>=2.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+aiohttp>=3.8.0
+typing-extensions>=4.5.0
+pyyaml>=6.0
+regex>=2023.0.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+nltk>=3.8.0
+beautifulsoup4>=4.12.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+mypy>=1.0.0
+
+# API and Web
+httpx>=0.24.0  # Modern HTTP client, often used with FastAPI
+python-multipart  # For handling file uploads in FastAPI
+
+# Database
+sqlalchemy>=2.0.0  # If you need SQL database support
+pymongo>=4.0.0  # If you need MongoDB support
+
+# Development and Testing
+pre-commit>=3.0.0  # For git hooks
+coverage>=7.0.0  # For test coverage reporting
+
+# Documentation
+mkdocs>=1.0.0  # If you need to generate documentation
+mkdocs-material  # Popular theme for mkdocs
+
+# Performance and Monitoring
+psutil>=5.9.0  # For system monitoring
+
