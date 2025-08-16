@@ -22,7 +22,7 @@ st.write("Because predicting discounts is cheaper than bargaining 😉")
 @st.cache_resource
 def load_model():
     model_path = hf_hub_download(
-        repo_id="TanmayPandey9584/Discount_Engine",  # <-- replace with your repo
+        repo_id="TanmayPandey9584/Discount_Engine/DiscountEngine",  # <-- replace with your repo
         filename="discount_model.joblib"
     )
     return joblib.load(model_path)
@@ -85,3 +85,4 @@ if st.button("💡 Get Discount Prediction"):
 # -------------------------------------------------
 st.markdown("---")
 st.caption("🤖 Discount Engine: Because math is cheaper than bargaining.")
+
